@@ -30,6 +30,6 @@ print ticket
 problem = prb.fetch_one({'number': 'PRB11570'})
 print problem
 
-tasks = tsk.fetch_one({'ci_item': machine['sys_id']})A
+tasks = tsk.fetch_one({'ci_item': machine['sys_id']})
 print tasks
 
